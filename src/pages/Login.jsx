@@ -14,7 +14,7 @@ const Login = () => {
     e.preventDefault();
     if (signState === "Sign In") {
       await login(email, password);
-      // navigate("/");
+      navigate("/");
     } else {
       await signup(name, email, password);
     }
