@@ -40,6 +40,7 @@ const signup = async (name, email, password) => {
 const login = async (email, password) => {
   try {
     await signInWithEmailAndPassword(auth, email, password);
+    console.log("signed in, auth.currentUser:", auth.currentUser);
   } catch (error) {
     console.log(error);
     alert(error);
