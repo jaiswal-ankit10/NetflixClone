@@ -8,3 +8,6 @@ body {
 .profile-img:hover .dropdown {
   display: block;
 }
+.nav-dark {
+  background-color: #141414;
+}
